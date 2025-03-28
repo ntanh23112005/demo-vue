@@ -1,13 +1,15 @@
 <template>
-<!-- truyền dữ liệu = dấu {{  }} -->
+  <!-- truyền dữ liệu = dấu {{  }} -->
   <!-- <h3>{{gioitinh}}</h3> -->
 
   <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Username" v-model="gioitinh">
-</div>
+    <input type="text" class="form-control" placeholder="Username" v-model="gioitinh">
 
-<button @click="changeCC" class="btn btn-primary">Click để biết giới tính tk cường</button>
-<h1>{{ count }}</h1>
+    <h3>Thế Anh</h3>
+  </div>
+
+  <button @click="changeCC" class="btn btn-primary">Click để biết giới tính tk cường</button>
+  <h1>{{ count }}</h1>
 </template>
 
 <script setup>
@@ -19,7 +21,7 @@ const gioitinh = ref('')
 
 const count = ref(0)
 const changeCC = () => {
-   count.value = count.value + 1
+  count.value = count.value + 1
 }
 
 </script>
