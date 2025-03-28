@@ -10,6 +10,7 @@
     <h3>Thế Anh</h3>
     <h1>test pull</h1>
     <h2>Thế anh nè phen</h2>
+    dsjksdhkjasjkhsdjkhdsajjksdjkhsđj
   </div>
 
   <button @click="changeCC" class="btn btn-primary">Click để biết giới tính tk cường</button>
