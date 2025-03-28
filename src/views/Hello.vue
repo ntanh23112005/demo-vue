@@ -5,7 +5,9 @@
   <div class="input-group mb-3">
   <input type="text" class="form-control" placeholder="Username" v-model="gioitinh">
 </div>
-
+<div>
+  <h1>cuowngf chim to</h1>
+</div>
 <button @click="changeCC" class="btn btn-primary">Click để biết giới tính tk cường</button>
 <h1>{{ count }}</h1>
 </template>
