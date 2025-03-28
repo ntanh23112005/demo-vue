@@ -8,9 +8,7 @@
     </div>
 
     <h3>Thế Anh</h3>
-    cường ngu
-    hsakjdhkjsa
-    akjsdhjasd
+    <h1>test pull</h1>
   </div>
 
   <button @click="changeCC" class="btn btn-primary">Click để biết giới tính tk cường</button>
