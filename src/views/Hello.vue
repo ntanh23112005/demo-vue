@@ -4,6 +4,8 @@
 
   <div class="input-group mb-3">
   <input type="text" class="form-control" placeholder="Username" v-model="gioitinh">
+
+  <h3>Hoàng Phúc</h3>
 </div>
 
 <button @click="changeCC" class="btn btn-primary">Click để biết giới tính tk cường</button>
