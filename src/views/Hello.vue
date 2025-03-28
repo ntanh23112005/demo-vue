@@ -1,9 +1,12 @@
 <template>
   <!-- truyền dữ liệu = dấu {{  }} -->
   <!-- <h3>{{gioitinh}}</h3> -->
+  <div>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Username" v-model="gioitinh">
 
-  <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Username" v-model="gioitinh">
+      <h3>Hoàng Phúc</h3>
+    </div>
 
     <h3>Thế Anh</h3>
   </div>
